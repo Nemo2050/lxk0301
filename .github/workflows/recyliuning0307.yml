@@ -24,7 +24,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/liuning0307/lxk0301.git"
+          source_repo: "https://github.com/Nemo2050/lxk0301.git"
           source_branch: "master"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
